@@ -10,7 +10,7 @@ Pipeline {
      checkout([
         $class: 'GitSCM',
         branches: [[name: 'develop']],
-        userRemoteConfigs: [[credentialsId: '1-a-2-b-c',url: 'https://company.bitbucket.org/git.git']]])
+        userRemoteConfigs: [[credentialsId: 'Apreddys119@',url: 'https://github.com/pradeeparumalla/GitCheckout.git']]])
     }
   }
   stage('shell command') {
